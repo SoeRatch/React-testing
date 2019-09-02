@@ -116,3 +116,10 @@ when we simulate an event we want to use the html name of the event not the reac
 
 therefore we use 'change' instead of 'onChange' in simulate method .
 
+8) when we call setstate, the component gets re render .
+and it happens asynchronously
+it queues up a request for an update inside of react . and that update might be in some point of time in future not immediately after setstate . 
+
+that's the reason we force the component to update in 6)d
+
+update() method forces a render
