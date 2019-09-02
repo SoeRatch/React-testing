@@ -91,3 +91,6 @@ Note: unlike shallow or static rendering, full rendering actually mounts the com
 so after every single test that we write we are gonna make sure that we do little bit of clean up .
 
 we are gonna make sure that we gonna take the component that we created and got mounted into that VIRTUAL DOM and we are gonna attempt to unmount it . so that the component that we created doesn't interfere with other component that was created .
+
+5)afterEach is exact opposite to beforeEach .
+afterEach will run a function or a little chunk of code that we pass it after every single test is executed .
