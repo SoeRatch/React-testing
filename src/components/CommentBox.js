@@ -8,7 +8,7 @@ class CommentBox extends Component {
 
 	handleChange = (event) => {
 		this.setState({
-			comment:event.value
+			comment:event.target.value
 		})
 	};
 

@@ -123,3 +123,5 @@ it queues up a request for an update inside of react . and that update might be 
 that's the reason we force the component to update in 6)d
 
 update() method forces a render
+
+9)prop(key)  - this method returns the prop value for the node of the current wrapper with the provided key . 
