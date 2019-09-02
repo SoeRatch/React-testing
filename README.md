@@ -94,3 +94,25 @@ we are gonna make sure that we gonna take the component that we created and got 
 
 5)afterEach is exact opposite to beforeEach .
 afterEach will run a function or a little chunk of code that we pass it after every single test is executed .
+
+6) 
+
+CommentBox Component - 
+
+b)Users can enter input into the text area and submit it .
+
+approach =>
+
+a) find the text area element .
+b) simulate a change event .
+c) provide a fake event object .
+d) force the component to update .
+e) assert that the text area value has changed .
+
+
+
+7) simulate method helps in simulating an event tied to a dom element .
+when we simulate an event we want to use the html name of the event not the react name .
+
+therefore we use 'change' instead of 'onChange' in simulate method .
+
