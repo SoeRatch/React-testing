@@ -125,3 +125,5 @@ that's the reason we force the component to update in 6)d
 update() method forces a render
 
 9)prop(key)  - this method returns the prop value for the node of the current wrapper with the provided key . 
+
+10) describe - describe function is used to group together some sets of test that have common setup code .
